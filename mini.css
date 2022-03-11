@@ -1,0 +1,73 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    
+    background-attachment:fixed;
+  }
+  .pimg1{
+    background-image:url('https://www.wealthmanagement.com/sites/wealthmanagement.com/files/financial-technology_3.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('https://media.istockphoto.com/photos/cropped-shot-of-two-young-businessmen-working-together-on-a-laptop-in-picture-id1322205587?b=1&k=20&m=1322205587&s=170667a&w=0&h=hMJTn4c5QT5wPjoDjQt9YWQXCkJr5dZX8zoiaAVhiME=');
+    min-height:300px;
+  }
+  
+  .pimg3{
+    background-image:url('https://media.istockphoto.com/photos/indian-white-collar-male-worker-in-wheelchair-having-cheerful-with-picture-id1331470022?b=1&k=20&m=1331470022&s=170667a&w=0&h=Znn6HfevSGffKlV22hlAG1DLPLZlmycBXUUB8hGw6qQ=');
+    min-height:400px;
+  }
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+}
